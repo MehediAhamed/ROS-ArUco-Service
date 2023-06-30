@@ -1,0 +1,8 @@
+prefix=/home/melts/aruco_service/install
+
+Name: aruco_service
+Description: Description of aruco_service
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

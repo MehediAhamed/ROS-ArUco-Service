@@ -1,0 +1,4 @@
+int32 id
+string tag_type
+string output_folder
+---

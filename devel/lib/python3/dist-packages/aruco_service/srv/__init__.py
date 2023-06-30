@@ -1,0 +1,1 @@
+from ._GenerateArUcoTags import *
