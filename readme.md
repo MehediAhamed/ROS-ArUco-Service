@@ -3,30 +3,38 @@ Open three terminal and navigate to scripts directory by entering this command-
  cd ~/aruco_service/src/aruco_service/scripts
 ```
 In first terminal, start roscore -
-# roscore
-
+```
+roscore
+```
 In second terminal, run the service.py-
-# rosrun aruco_service generate_aruco_tags_service.py
-
+```
+rosrun aruco_service generate_aruco_tags_service.py
+```
 In third terminal-
  -For generating aruco tags 
- ## rosservice call /generate_aruco_tags
-
+ ```
+ rosservice call /generate_aruco_tags
+```
  -For capturing checkerboard image-
- ## rosservice call /image_capturer
-
+ ```
+ rosservice call /image_capturer
+```
  -For camera calibration
- ## rosservice call /calibrate_camera
-
+ ```
+ rosservice call /calibrate_camera
+```
  -For pose estimation
- ## rosservice call /pose_estimation
-
+ ```
+ rosservice call /pose_estimation
+```
  -For detecting Aruco Images
- ## rosservice call /detect_aruco_images
-
+ ```
+ rosservice call /detect_aruco_images
+```
  -For detecting Aruco in video
- ## rosservice call /detect_aruco_video
-
+ ```
+ rosservice call /detect_aruco_video
+```
 
 # Additional Important Information
 
