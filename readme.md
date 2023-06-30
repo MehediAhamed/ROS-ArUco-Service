@@ -1,11 +1,12 @@
 Open three terminal and navigate to scripts directory by entering this command-
-## cd ~/aruco_service/src/aruco_service/scripts
-
+```
+ cd ~/aruco_service/src/aruco_service/scripts
+```
 In first terminal, start roscore -
-## roscore
+# roscore
 
 In second terminal, run the service.py-
-## rosrun aruco_service generate_aruco_tags_service.py
+# rosrun aruco_service generate_aruco_tags_service.py
 
 In third terminal-
  -For generating aruco tags 
